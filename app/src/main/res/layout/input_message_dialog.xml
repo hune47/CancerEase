@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout_address_input"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/add_address_edit_text_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رسالة جديدة"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/input_msg_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:hint="إلى"/>
+
+        <EditText
+            android:id="@+id/input_msg_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:hint="الموضوع"/>
+
+        <EditText
+            android:id="@+id/input_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:hint="الرسالة"/>
+
+    </LinearLayout>
+
+</LinearLayout>

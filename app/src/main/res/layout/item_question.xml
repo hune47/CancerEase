@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:id="@+id/reports_card"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/question_no_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/question_txt"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="الى أي درجة تشعر أن الالم الجسدي يمنعك من القيام بما عليك القيام به؟"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/choice_rdo_1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:textSize="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="ضغيفة جداً"/>
+
+                <RadioButton
+                    android:id="@+id/choice_rdo_2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="ضعيفة"/>
+
+                <RadioButton
+                    android:id="@+id/choice_rdo_3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="مقبولة"/>
+                <RadioButton
+                    android:id="@+id/choice_rdo_4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="جيدة"/>
+                <RadioButton
+                    android:id="@+id/choice_rdo_5"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="ممتازة"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

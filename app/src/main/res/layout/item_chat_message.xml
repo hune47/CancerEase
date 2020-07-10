@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layoutDirection="ltr"
+    android:padding="3dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chat_prof_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_account_circle"/>
+
+    <TextView
+        android:id="@+id/receiver_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/chat_prof_img"
+        android:background="@drawable/receiver_msg_layout"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="رسائل المستقبل هنا "/>
+    
+    <TextView
+        android:id="@+id/sender_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="@+id/receiver_msg_text"
+        android:background="@drawable/sender_msg_layout"
+        android:layout_centerVertical="true"
+        android:text="هنا رسائ المرسل"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="1dp"
+        android:paddingStart="15dp"
+        android:background="@color/lightBlue">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_arrow_right"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:text="جودة النوم"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnSleepRecord"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="بدء" />
+
+        <Button
+            android:id="@+id/btnRecordAlarm"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="تسجيل" />
+
+        <Button
+            android:id="@+id/btnSelectAlarm"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="تحديد" />
+
+        <Button
+            android:id="@+id/btnAlarmTest"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="اختبار" />
+
+        <TextView
+            android:id="@+id/txtaverageAbsValue"
+            android:layout_width="65dip"
+            android:layout_height="wrap_content"
+            android:text="00000"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/SurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </SurfaceView>
+
+</LinearLayout>

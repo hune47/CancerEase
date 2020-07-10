@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "679567325053",
+    "firebase_url": "https://cancereaseproj.firebaseio.com",
+    "project_id": "cancereaseproj",
+    "storage_bucket": "cancereaseproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679567325053:android:b1f04eb167d56ee4787e14",
+        "android_client_info": {
+          "package_name": "com.graduation.CancerEaseProj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679567325053-4ispu8dtpcuns0dgpaj630odfshkbhfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.graduation.CancerEaseProj",
+            "certificate_hash": "46900594303610cc78320a686e58d4997b7d6cc5"
+          }
+        },
+        {
+          "client_id": "679567325053-24dlnb4oj8hpfl5sljoo7qlkpvbml277.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0705cUoV7a2Y69M5IGsMmSUb9avRIksA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679567325053-24dlnb4oj8hpfl5sljoo7qlkpvbml277.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

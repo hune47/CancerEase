@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">CancerEase</string>
+
+    <!-- User Messages -->
+    <string name="my_health">صحتي</string>
+    <string name="self_diagnosis">التشخيص الذاتي</string>
+    <string name="doctor_patients">المرضى</string>
+    <string name="appointments">المواعيد</string>
+    <string name="drug_prescriptions">الوصفات الدوائية</string>
+    <string name="reports">التقارير</string>
+    <string name="messages">الرسائل</string>
+    <string name="health_education">التثقيف الصحي</string>
+    <string name="chat">المحادثات</string>
+    <string name="title_please_waite">يرجى الانتظار ..</string>
+    <string name="msg_sign_out">تسجيل الخروج الآن</string>
+    <string name="msg_sign_in">تسجيل الدخول الآن</string>
+    <string name="search_for_devices">البحث عن أجهزة قريبة</string>
+    <string name="profile_updating">جاري تحديث الملف الشخصي</string>
+    <string name="loading_data">جاري تحميل البيانات</string>
+    <string name="menu_sign_out">تسجيل خروج</string>
+    <string name="confirmed_appointment">مؤكد</string>
+    <string name="waiting_appointment">في قائمة الانتظار</string>
+    <string name="document_does_not_exists">الملف غير موجود!</string>
+    <string name="enter_email_error">يرجى ادخال البريد الإلكتروني!</string>
+    <string name="enter_password_error">يرجى ادخال كلمة المرور!</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالانترنت!</string>
+    <string name="login_failed_error">فشل تسجيل الدخول .. يرجى التأكد من بيانات الدخول!</string>
+    <string name="doctor">الطبيب:&#160;</string>
+    <string name="name">الاسم:&#160;</string>
+
+    <!--profile preferences-->
+    <string name="ref_title_birth_date">Date Of Birth</string>
+    <string name="ref_title_photo">Photo</string>
+    <string name="pref_title_blood_type">BloodType</string>
+    <string name="pref_title_account_type">AccountType</string>
+    <string name="pref_title_steps">Steps</string>
+    <string name="pref_title_temp">Temp</string>
+    <string name="pref_title_id">Id</string>
+    <string name="pref_title_name">Name</string>
+    <string name="pref_title_email">Email</string>
+    <string name="pref_title_mobile">Mobile</string>
+    <string name="pref_title_id_no">IdNo</string>
+    <string name="pref_title_gender">Gender</string>
+    <string name="pref_title_record_number">RecordNo</string>
+    <string name="pref_title_available">RecordNo</string>
+    <string name="pref_title_photo">Photo</string>
+    <string name="pref_title_Birth_Date">BirthDate</string>
+    <string name="pref_title_company">Company</string>
+    <string name="pref_title_contract">Contract</string>
+    <string name="pref_title_nationality">Nationality</string>
+    <string name="pref_title_device_token">DeviceToken</string>
+    <string name="pref_title_refresh_token">RefreshToken</string>
+    <string name="pref_title_test">TestPref</string>
+
+    <string name="default_your_id">1123456789</string>
+    <string name="default_your_name">Your Name</string>
+    <string name="default_your_email">your.email@gmail.com</string>
+    <string name="default_your_mobile">+1111111111</string>
+    <string name="default_your_gender">Gender</string>
+    <string name="default_your_record_number">0</string>
+    <string name="default_your_available">0</string>
+    <string name="default_your_id_no">123456789</string>
+    <string name="default_your_photo">img_empty.png</string>
+    <string name="default_your_Birth_Date">Your BirthDate</string>
+    <string name="default_your_company">Your Company</string>
+    <string name="default_your_contract">Your Contract</string>
+    <string name="default_your_blood_type">Your BloodType</string>
+    <string name="default_your_account_type">Your AccountType</string>
+    <string name="default_your_steps">0</string>
+    <string name="default_your_temp">0</string>
+    <string name="default_your_nationality">Your Nationality</string>
+    <string name="default_your_device_token">Your DeviceToken</string>
+    <string name="default_your_refresh_token">Your RefreshToken</string>
+    <string name="default_your_test">Your Test</string>
+
+    <!--self diagnosis-->
+    <string name="go_to_emergency">الذهاب للطوارئ</string>
+    <string name="go_to_psychiatrist">الذهاب للطبيب النفسي</string>
+    <string name="go_to_hospital">نوصي المريض بالتواصل مع المستشفى لمساعدته</string>
+    <string name="no_recommendations">لا يوجد توصيات</string>
+    <string name="error_insert_time">لا يمكنك تعبئة الاستبيان قبل انقضاء اسبوعين من اخر ادخال!</string>
+    <string name="questionnaire_title">هذا الإستطلاع يصف لنا بشكل عام حالتك الصحية ونمط حياتك اليومي ونشاطاتك الحيوية الاخرى.\nمن فضلك أجب على الأسئلة التالية التي تعبر عن حالتك في الإسبوعين السابقين, في حال لم تكن متأكد من إجابتك نرجو إختيار اقرب إجابة ملائمة:</string>
+    <!--E4 diagnosis-->
+    <string name="accel">Accelerometers</string>
+    <string name="accel_x">x:</string>
+    <string name="accel_y">y:</string>
+    <string name="accel_z">z:</string>
+    <string name="bvp_label">BVP</string>
+    <string name="eda_label">EDA</string>
+    <string name="ibi_label">IBI</string>
+    <string name="emptyText">-</string>
+    <string name="temp_label">Temperature</string>
+    <string name="battery_label">Battery</string>
+
+    <!--Chat Groups-->
+    <string name="enroll_conf_title">تأكيد الانضمام للمجموعة</string>
+    <string name="enroll_conf_msg">هل أنت متأكد بأنك تريد الانضمام للمجموعة؟</string>
+
+    <!--Send Activity-->
+    <string name="button_enable_bt">Enable Bluetooth</string>
+    <string name="button_select_file">Select File</string>
+    <string name="button_send">Send Data</string>
+    <string name="button_discover_devices">Discover Nearby Devices</string>
+
+    <string name="toast_bt_enabled">Bluetooth enabled!</string>
+    <string name="toast_file_selected">Selected file:  </string>
+    <string name="toast_error_enable_bt">Bluetooth must be enabled</string>
+    <string name="toast_error_select_file">Select file to send</string>
+    <string name="toast_error_select_file_02">Please select a file</string>
+    <string name="toast_success_send">File data successfully!</string>
+    <string name="toast_error_socket">Unable to create socket</string>
+    <string name="toast_error_connect">Unable to connect to device</string>
+    <string name="toast_error_bytes">Unable to read file</string>
+    <string name="toast_error_output_stream">Unable to send data</string>
+
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_error_message">Device does not support Bluetooth</string>
+
+    <string name="label_select_device">اختر الجهاز</string>
+</resources>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    tools:context=".Activities.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="1dp"
+        android:paddingStart="15dp"
+        android:background="@color/lightBlue">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_arrow_right"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:text="الملف الشخصي"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layoutDirection="rtl"
+        android:layout_weight="3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/doctor_bg_ltr"
+            android:alpha=".4"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="#fff"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/patient_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_account_box"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+
+        <Button
+                android:id="@+id/update_image_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_margin="10dp"
+                android:textColor="#fff"
+                android:backgroundTint="@color/lightBlue"
+                android:text="تحديث"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="الاسم:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="رقم الملف:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="تاريخ الميلاد:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="الجنس:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="الجنسية:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="رقم الهوية/الإقامة:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="فصيلة الدم:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="الجوال:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_title_text_style"
+                android:text="البريد الإلكتروني:"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/patient_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_data_text_style"/>
+
+            <TextView
+                android:id="@+id/patient_record_no"
+                style="@style/profile_data_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/patient_birth_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_data_text_style"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/patient_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_data_text_style"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/patient_nationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_data_text_style"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/patient_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_data_text_style"/>
+
+            <TextView
+                android:id="@+id/patient_blood_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_data_text_style"/>
+
+            <TextView
+                android:id="@+id/patient_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_data_text_style"/>
+
+            <TextView
+                android:id="@+id/patient_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/profile_data_text_style"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C2C2C2"/>
+
+        <Button
+            android:id="@+id/save_profile_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="حفظ"/>
+
+    </LinearLayout>
+
+</LinearLayout>
